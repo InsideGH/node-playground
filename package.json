@@ -1,0 +1,26 @@
+{
+  "name": "node_playground",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "description": "node playground",
+  "scripts": {
+    "test": "npm run eslint && TZ=Europe/Stockholm jest -w=2 --coverage",
+    "eslint": "./node_modules/.bin/eslint src/*",
+    "start": "nodemon --exec babel-node src/main.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
