@@ -14,5 +14,6 @@
 ## Test
 
 - Test 1
+- Test 2
 - After running 'npm test' the detailed coverage report can viewed here ->
   `./coverage/lcov-report/index.html`
