@@ -2,7 +2,6 @@ import { isNumber } from './util/validate'
 import { range } from 'lodash'
 
 const myCode = () => {
-  // Your code here ->
   console.log("Nothing here")
 }
 
