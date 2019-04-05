@@ -1,13 +1,10 @@
-import { isNumber } from './util/validate'
-import { range } from 'lodash'
-
-const myCode = () => {
+const myCode = async () => {
   // Your code here ->
-  console.log("Nothing here")
+  console.log('Nothing here')
 }
 
-;(function start() {
+;(async function start() {
   console.log('Start --->\n')
-  myCode()
+  await myCode()
   console.log('\n<--- End')
 })()
